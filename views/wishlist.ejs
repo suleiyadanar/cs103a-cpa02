@@ -1,0 +1,21 @@
+<div class="d-flex flex-wrap overflow-scroll">
+    <h1>WishList</h1>
+    <% for (book of books){%>
+        <div class="p-3 m-3 border border-primary bg-light">
+            <a href="/wishlist/remove/<%= book.ISBN %>">X</a>
+            <div class="">
+                <span>
+                    <strong></strong><%= book.title %> </strong>
+                    <%= book.author %> 
+                    <%= book.rating %> 
+                    <%= book.price %> 
+                    
+                </span>
+                <%= book.description %>
+                
+            </div>
+           
+        
+        </div>
+    <% } %>
+</div>

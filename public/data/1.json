@@ -1,0 +1,863 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 530,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "B8gzEAAAQBAJ",
+      "etag": "Pg4ey+aie+Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/B8gzEAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Mysterious Romance of Murder",
+        "subtitle": "Crime, Detection, and the Spirit of Noir",
+        "authors": [
+          "David Lehman"
+        ],
+        "publisher": "Cornell University Press",
+        "publishedDate": "2022-05-15",
+        "description": "From Sherlock Holmes to Sam Spade; Nick and Nora Charles to Nero Wolfe and Archie Goodwin; Harry Lime to Gilda, Madeleine Elster, and other femmes fatales—crime and crime solving in fiction and film captivate us. Why do we keep returning to Agatha Christie's ingenious puzzles and Raymond Chandler's hard-boiled murder mysteries? What do spy thrillers teach us, and what accounts for the renewed popularity of morally ambiguous noirs? In The Mysterious Romance of Murder, the poet and critic David Lehman explores a wide variety of outstanding books and movies—some famous (The Maltese Falcon, Double Indemnity), some known mainly to aficionados—with style, wit, and passion. Lehman revisits the smoke-filled jazz clubs from the classic noir films of the 1940s, the iconic set pieces that defined Hitchcock's America, the interwar intrigue of Eric Ambler's best fictions, and the intensity of attraction between Humphrey Bogart and Lauren Bacall, Robert Mitchum and Jane Greer, Cary Grant and Ingrid Bergman. He also considers the evocative elements of noir—cigarettes, cocktails, wisecracks, and jazz standards—and offers five original noir poems (including a pantoum inspired by the 1944 film Laura) and ironic astrological profiles of Barbara Stanwyck, Marlene Dietrich, and Graham Greene. Written by a connoisseur with an uncanny feel for the language and mood of mystery, espionage, and noir, The Mysterious Romance of Murder will delight fans of the genre and newcomers alike.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781501763632"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1501763636"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 296,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.3.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=B8gzEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=B8gzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=B8gzEAAAQBAJ&printsec=frontcover&dq=subject:fiction+romance+poetry+crime&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=B8gzEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=B8gzEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=B8gzEAAAQBAJ&rdid=book-B8gzEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Mysterious_Romance_of_Murder-sample-epub.acsm?id=B8gzEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=B8gzEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "03To_-uN8HcC",
+      "etag": "87Qjg1qJ7vI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/03To_-uN8HcC",
+      "volumeInfo": {
+        "title": "Crime Love & Black Pearls",
+        "subtitle": "Is a Best Seller",
+        "authors": [
+          "Leroy Hewitt, Jr."
+        ],
+        "publisher": "iUniverse",
+        "publishedDate": "2009-01",
+        "description": "Never before has any book brought you so much enlightment and excitement as this book does. It gives you a glimpse into the world of modern day poetry of crime, love, danger, etc. It will stimulate your mind, heart and soul. You can enjoy and appreciate the treasures of this book for years to come. It can appear to the heart and capture any imagination. You can see the living poetry right out of the author's soul. That has been burning as flames of fire, as it was untold.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781440115974"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1440115974"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 176,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=03To_-uN8HcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=03To_-uN8HcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=03To_-uN8HcC&printsec=frontcover&dq=subject:fiction+romance+poetry+crime&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=03To_-uN8HcC&dq=subject:fiction+romance+poetry+crime&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Crime_Love_Black_Pearls.html?hl=&id=03To_-uN8HcC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Crime_Love_Black_Pearls-sample-epub.acsm?id=03To_-uN8HcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=03To_-uN8HcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "t0b7CgAAQBAJ",
+      "etag": "h/mE+dM0WzU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/t0b7CgAAQBAJ",
+      "volumeInfo": {
+        "title": "A Classic Crime Collection",
+        "authors": [
+          "Edgar Allan Poe"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2015-10-22",
+        "description": "The perfect Christmas gift! Curl up by the fire with this chilling collection of tales from one of the original masters of mystery and the macabre... 'Meantime the hellish tattoo of the heart increased. It grew quicker and quicker, and louder and louder every instant. The old man's terror must have been extreme! It grew louder, I say, louder every moment! --do you mark me well? I have told you that I am nervous: so I am. And now at the dead hour of the night, amid the dreadful silence of that old house, so strange a noise as this excited me to uncontrollable terror.' The melancholy, brilliance, passionate lyricism and torment of Edgar Allen Poe are all well represented in this timeless collection. Here, in one volume, are his masterpieces of mystery, terror, humour and adventure, including stories such as The Tell-Tale Heart, The Cask of Amontillado, The Black Cat, The Masque of the Red Death, The Murders in the Rue Morgue, and The Pit and the Pendulum, and his finest lyric and narrative poetry -The Ravenand Annabel Lee, to name just a few - that defined American romanticism and secured Poe as one of the most enduring literary voices of the nineteenth century.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781471152498"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1471152499"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 432,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=t0b7CgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=t0b7CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=t0b7CgAAQBAJ&pg=PR18&dq=subject:fiction+romance+poetry+crime&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=t0b7CgAAQBAJ&dq=subject:fiction+romance+poetry+crime&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Classic_Crime_Collection.html?hl=&id=t0b7CgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=t0b7CgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0XG0pwAACAAJ",
+      "etag": "3kpgo2rOstU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0XG0pwAACAAJ",
+      "volumeInfo": {
+        "title": "Poetic Joue't",
+        "subtitle": "Romance, Action, Mayhem, Mystery",
+        "authors": [
+          "Lamont B. Jones"
+        ],
+        "publisher": "Xlibris Corporation",
+        "publishedDate": "2011-12",
+        "description": "Joue't... is the beginning of theater and vision in a new perspective. Her grace characterize essence to romance, action, mayhem, and mystery. She embraces a life living on the edge. Love revere's one of her standard personalities switching back and forth. Mentally Joue't dwells in fear of the past blind folded. She's a dare devil and will risk life for fortune. Joue't means... \"Game\" Action packed traveling beyond underworlds, crime bosses, money, and power entangled in adventure. Joue't is beautiful smart talented and graceful. Her personality shift gears from love to danger. Joue't support avenues of ambition rising to the top in connections thru underworlds. \"Trickster is king linked to her indentity and dreams taunt in mystery.\" The first volume will lead taste buds into excitement. The level of events take you inside Joue't's mind attitude and authority she reveals. Joue't teams up with Milo her adopted parent taking crime to new dimensions. She's trained for risk in this thriller while, writing and reciting poetry guide her mentally...",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1469131137"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781469131139"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 76,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0XG0pwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0XG0pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=0XG0pwAACAAJ&dq=subject:fiction+romance+poetry+crime&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=0XG0pwAACAAJ&dq=subject:fiction+romance+poetry+crime&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Poetic_Joue_t.html?hl=&id=0XG0pwAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0XG0pwAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GS8zEAAAQBAJ",
+      "etag": "lr4V0ycxixc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GS8zEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Aja Minor: Fountain of Youth - A Psychic Crime Thriller Series",
+        "authors": [
+          "Chris Bliersbach"
+        ],
+        "publisher": "Chris Bliersbach",
+        "publishedDate": "2020-05-08",
+        "description": "Aja Minor goes undercover. The target, an international child trafficking ring. When her cover is blown, the mission and her life are in jeopardy. Fresh off of the Peace Sign Killer case, Aja Minor is asked to join a joint CIA-FBI task force based in New York City. Their aim? To take down the Fountain of Youth network – an international child trafficking and exploitation ring. When Aja is asked to go undercover for the first time, all doesn’t go as planned. Her cover is blown, her back-up is shot, and the police detail supposed to protect her inexplicably left the scene. Aja wakes up strapped to a bed, only to learn she is in the clutches of the Fountain of Youth organizers. Dazed and drugged, with no way to use her powers or communicate her location, she is at the mercy of the most merciless of the network’s perverted predators. Will this be the ignoble end to Aja’s brief FBI career and young life? Aja Minor: Fountain of Youth is the second book in the Aja Minor psychic crime thrillers series, including Aja Minor: Gifted or Cursed and Aja Minor: Predatorville. Fans of fierce female protagonists with unique powers who overcome adversity to bring depraved criminals to justice will find a home with this series. A portion of the proceeds from this series is donated to the National Center for Missing & Exploited Children, established in 1984 to help find missing children, reduce child sexual exploitation, and prevent child victimization.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780463516232"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0463516230"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 357,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=GS8zEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=GS8zEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=GS8zEAAAQBAJ&printsec=frontcover&dq=subject:fiction+romance+poetry+crime&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=GS8zEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=GS8zEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 4.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 4.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=GS8zEAAAQBAJ&rdid=book-GS8zEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 4990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 4990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Aja_Minor_Fountain_of_Youth_A_Psychic_Cr-sample-epub.acsm?id=GS8zEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Aja_Minor_Fountain_of_Youth_A_Psychic_Cr-sample-pdf.acsm?id=GS8zEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GS8zEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Jy8zEAAAQBAJ",
+      "etag": "SIDVWsKtjRQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Jy8zEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Aja Minor: Predatorville - A Psychic Crime Thriller Series",
+        "authors": [
+          "Chris Bliersbach"
+        ],
+        "publisher": "Chris Bliersbach",
+        "publishedDate": "2021-02-23",
+        "description": "Teen heroine Aja Minor returns to crack the case of a spike in assaults and missing children only to have the huntress become the hunted. When the joint CIA-FBI task force that brought down the Fountain of Youth network is disbanded, Aja Minor is devastated. She doesn’t want to go back to FBI Academy. Nor does she want to live apart from Marsha, her partner, and CIA counterpart. Her devastation turns to delight when the CIA and FBI create the Sexual Harm Intervention Enforcement and Liaison Division (SHIELD). Not only does it allow Aja and Marsha to stay together, but it preserves their mission and keeps intact the core members of the former task force. However, just as they start their investigation, Aja and the team learn of a threat to their lives. Who could have known? Is there a mole in their midst who has put them in the crosshairs? And will Aja and the team get out of Predatorville alive? Aja Minor: Predatorville is the third book in the Aja Minor psychic crime thrillers series, including Aja Minor: Gifted or Cursed and Aja Minor: Fountain of Youth. Fans of fierce female protagonists with unique powers who overcome adversity will find a home with this series. A portion of the proceeds from this series are donated to the National Center for Missing & Exploited Children, established in 1984 to help find missing children, reduce child sexual exploitation, and prevent child victimization.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781005392918"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1005392919"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 272,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Jy8zEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Jy8zEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Jy8zEAAAQBAJ&printsec=frontcover&dq=subject:fiction+romance+poetry+crime&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Jy8zEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Jy8zEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 4.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 4.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Jy8zEAAAQBAJ&rdid=book-Jy8zEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 4990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 4990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Aja_Minor_Predatorville_A_Psychic_Crime-sample-epub.acsm?id=Jy8zEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Aja_Minor_Predatorville_A_Psychic_Crime-sample-pdf.acsm?id=Jy8zEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Jy8zEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "B8gzEAAAQBAJ",
+      "etag": "zIluzVJtyHk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/B8gzEAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Mysterious Romance of Murder",
+        "subtitle": "Crime, Detection, and the Spirit of Noir",
+        "authors": [
+          "David Lehman"
+        ],
+        "publisher": "Cornell University Press",
+        "publishedDate": "2022-05-15",
+        "description": "From Sherlock Holmes to Sam Spade; Nick and Nora Charles to Nero Wolfe and Archie Goodwin; Harry Lime to Gilda, Madeleine Elster, and other femmes fatales—crime and crime solving in fiction and film captivate us. Why do we keep returning to Agatha Christie's ingenious puzzles and Raymond Chandler's hard-boiled murder mysteries? What do spy thrillers teach us, and what accounts for the renewed popularity of morally ambiguous noirs? In The Mysterious Romance of Murder, the poet and critic David Lehman explores a wide variety of outstanding books and movies—some famous (The Maltese Falcon, Double Indemnity), some known mainly to aficionados—with style, wit, and passion. Lehman revisits the smoke-filled jazz clubs from the classic noir films of the 1940s, the iconic set pieces that defined Hitchcock's America, the interwar intrigue of Eric Ambler's best fictions, and the intensity of attraction between Humphrey Bogart and Lauren Bacall, Robert Mitchum and Jane Greer, Cary Grant and Ingrid Bergman. He also considers the evocative elements of noir—cigarettes, cocktails, wisecracks, and jazz standards—and offers five original noir poems (including a pantoum inspired by the 1944 film Laura) and ironic astrological profiles of Barbara Stanwyck, Marlene Dietrich, and Graham Greene. Written by a connoisseur with an uncanny feel for the language and mood of mystery, espionage, and noir, The Mysterious Romance of Murder will delight fans of the genre and newcomers alike.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781501763632"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1501763636"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 296,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.3.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=B8gzEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=B8gzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=B8gzEAAAQBAJ&pg=PT139&dq=subject:fiction+romance+poetry+crime&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=B8gzEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=B8gzEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=B8gzEAAAQBAJ&rdid=book-B8gzEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Mysterious_Romance_of_Murder-sample-epub.acsm?id=B8gzEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=B8gzEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "lYlPAAAAYAAJ",
+      "etag": "tT9fRmdBmjQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lYlPAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Poetry, Modern Romance and Rhetoric",
+        "authors": [
+          "George Moir",
+          "William Spalding"
+        ],
+        "publishedDate": "1851",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NYPL:33433087360628"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 381,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lYlPAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lYlPAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=lYlPAAAAYAAJ&pg=PA23&dq=subject:fiction+romance+poetry+crime&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=lYlPAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lYlPAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=lYlPAAAAYAAJ&rdid=book-lYlPAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Poetry_Modern_Romance_and_Rhetoric.epub?id=lYlPAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Poetry_Modern_Romance_and_Rhetoric.pdf?id=lYlPAAAAYAAJ&hl=&output=pdf&sig=ACfU3U2nL5597cwVOpVTw6mlxBCr3UGx7Q&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lYlPAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "grJCDwAAQBAJ",
+      "etag": "YTsj6J/A42E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/grJCDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Romantic Women Writers and Arthurian Legend",
+        "subtitle": "The Quest for Knowledge",
+        "authors": [
+          "Katie Garner"
+        ],
+        "publisher": "Springer",
+        "publishedDate": "2017-12-11",
+        "description": "This book reveals the breadth and depth of women’s engagements with Arthurian romance in the late eighteenth and early nineteenth centuries. Tracing the variety of women’s responses to the medieval revival through Gothic literature, travel writing, scholarship, and decorative gift books, it argues that differences in the kinds of Arthurian materials read by and prepared for women produced a distinct female tradition in Arthurian writing. Examining the Arthurian interests of the best-selling female poets of the day, Felicia Hemans and Letitia Elizabeth Landon, and uncovering those of many of their contemporaries, the Arthurian myth in the Romantic period is a vibrant location for debates about the function of romance, the role of the imagination, and women’s place in literary history.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781137597120"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1137597127"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 311,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=grJCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=grJCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=grJCDwAAQBAJ&pg=PA140&dq=subject:fiction+romance+poetry+crime&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=grJCDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=grJCDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 79.2,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=grJCDwAAQBAJ&rdid=book-grJCDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 99000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 79200000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 34650000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 30150000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Romantic_Women_Writers_and_Arthurian_Leg-sample-epub.acsm?id=grJCDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Romantic_Women_Writers_and_Arthurian_Leg-sample-pdf.acsm?id=grJCDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=grJCDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vg7GDwAAQBAJ",
+      "etag": "x93YB7zZ7OQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vg7GDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Robert Browning",
+        "authors": [
+          "C. H. Herford"
+        ],
+        "publisher": "Good Press",
+        "publishedDate": "2019-12-19",
+        "description": "\"Robert Browning\" by C. H. Herford. Published by Good Press. Good Press publishes a wide range of titles that encompasses every genre. From well-known classics & literary fiction and non-fiction to forgotten−or yet undiscovered gems−of world literature, we issue the books that need to be read. Each Good Press edition has been meticulously edited and formatted to boost readability for all e-readers and devices. Our goal is to produce eBooks that are user-friendly and accessible to everyone in a high-quality digital format.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "EAN:4064066164287"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 292,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vg7GDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vg7GDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=vg7GDwAAQBAJ&pg=PT82&dq=subject:fiction+romance+poetry+crime&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=vg7GDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=vg7GDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 1.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=vg7GDwAAQBAJ&rdid=book-vg7GDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 1990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vg7GDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

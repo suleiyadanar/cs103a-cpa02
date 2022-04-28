@@ -1,0 +1,17 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+::placeholder {
+  color: rgb(223, 223, 223);
+  padding-left: 10px;
+  
+}
