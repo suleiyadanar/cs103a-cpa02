@@ -1,6 +1,9 @@
 # cs103a-cpa02 ToRead App 
 Heroku Link : https://still-lowlands-62360.herokuapp.com/
 
+"Proof of Concept" Video : https://brandeis.zoom.us/rec/share/zehseZN3_VTKthYolPDFIZzpYkf6zaM83zrtGq88jFh0__q8uF2YfVBxhYmrssjO.AdsHSIPaQC4r2elc?startTime=1651249895000
+
+
 This is a project which has a simple authentication module 
 and provides access to a mongoose database in the cloud. 
 It uses the Google Book API to search for books using a keyword in
