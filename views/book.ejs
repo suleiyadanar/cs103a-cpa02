@@ -1,6 +1,6 @@
-<div class="container bg-light m-5 p-2 border border-info border-2 d-flex justify-items-center">
+<div class="bg-light m-5 p-2 border border-info border-2 row justify-content-center">
    
-    <table class="table">
+    <table class="table d-flex justify-content-center align-ite">
         
         <tbody>
             <tr>
@@ -10,7 +10,12 @@
                 <td class="p-5 col-sm-7">
                     <h1><%= title %></h1>
                     <h4><%= author %></h4>
-                    <h5 class="mt-5"><%= description %></h5>
+                    <p>ISBN <%= isbn %></p>
+                    <h6 class="mt-5"><%= description %></h6>
+                    <form method="post" action="/wishlist/add">
+                        <input type="text" value="<%= isbn %>" name="isbnRes" style="visibility:hidden"><br>
+                    <button class="mt-3 btn btn-danger" type="submit">+ Add to Wish List</button>
+                </form>
                 </td>
             </tr>
         </tbody>

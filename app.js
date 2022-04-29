@@ -20,7 +20,6 @@ const axios = require("axios");
 // *********************************************************** //
 //  Loading models
 // *********************************************************** //
-const Book = require("./models/Book.js")
 const WishList = require("./models/WishList.js")
 
 // *********************************************************** //
@@ -116,23 +115,12 @@ app.get("/about", (req, res, next) => {
 // this route loads in the books into the Book collection
 // or updates the books if it is not a new collection
 
-app.get('/upsertDB',
-  async (req,res,next) => {
-    //await Course.deleteMany({})
-    for (book of books){
-      const {isbn,title,author,rating,description, price}=book;
-      await Book.findOneAndUpdate({isbn,title,author,rating,description, price},book,{upsert:true})
-    }
-    const num = await Book.find({}).count();
-    res.send("data uploaded: "+num)
-  }
-)
-
+//search for books
 app.post('/books/search',
   async (req,res,next) => {
     try{
-    const{title, author,isbn}=req.body;
-    const response = await axios.get("https://www.googleapis.com/books/v1/volumes?q=intitle:"+title+"+inauthor:"+author+"+isbn:"+isbn+"&fields=items(volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/description)&key="+API_KEY)
+    const{title, author}=req.body;
+    const response = await axios.get("https://www.googleapis.com/books/v1/volumes?q=intitle:"+title+"+inauthor:"+author+"&maxResults=20&key="+API_KEY)
     
     res.locals.titleRes=response.data.items.map(x => x['volumeInfo']['title'])
     res.locals.authorRes=response.data.items.map(x => x['volumeInfo']['authors'])
@@ -141,44 +129,87 @@ app.post('/books/search',
     if(checkNested(response.data.items,"volumeInfo","imageLinks","thumbnail")){
       res.locals.imageRes=response.data.items.map(x => x['volumeInfo']['imageLinks']['thumbnail'])
     }
+    res.locals.isbnRes=response.data.items.map(x => x['volumeInfo']['industryIdentifiers'][0]['identifier'])
     res.render('booklist')
     }catch (error) {
       res.render('errorsearch.ejs')
     }
   })
 
-
-app.get('/books/show/:title/:author',
+//shows the description of the book
+app.get('/books/show/:isbn',
   // show all info about a course given its courseid
   async (req,res,next) => {
-    const {title,author} = req.params;
-    const response = await axios.get("https://www.googleapis.com/books/v1/volumes?q=intitle:"+title+"+inauthor:"+author+"&fields=items(volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/description)&key="+API_KEY)
+    const {isbn} = req.params;
+    const response = await axios.get("https://www.googleapis.com/books/v1/volumes?q="+isbn+"&maxResults=20&key="+API_KEY)
+    if(!response.data.items){
+      res.render('errorsearch.ejs')
+    }
     res.locals.title = response.data.items[0]['volumeInfo']['title']
     res.locals.author=response.data.items[0]['volumeInfo']['authors']
+    
     res.locals.description=response.data.items[0]['volumeInfo']['description']
     if(checkNested(response.data.items[0],"volumeInfo","imageLinks","thumbnail")){
       res.locals.image=response.data.items[0]['volumeInfo']['imageLinks']['thumbnail']
     }
+    res.locals.isbn=isbn
     //res.json(course)
     res.render('book')
+
   }
 )
-
-app.get('/wishlist/show',
-  // show the current user's schedule
+/*
+    WishList routes
+*/
+app.get('/wishlist',
+  isLoggedIn,   // redirect to /login if user is not logged in
   async (req,res,next) => {
     try{
-      const userId = res.locals.user;
-      const id = 
-         (await WishList.find({userId}))
-                        .map(x => x._id)
-      res.locals.books = await Book.find({_id:{$in: id}})
-      res.render('wishlist')
-    } catch(e){
-      next(e)
+      let userId = res.locals.user._id;  // get the user's id
+      let items = await WishList.find({userId:userId}); // lookup the user's wishlist 
+      res.locals.items = items;  //make the items available in the view
+      res.render('wishlist');  // render to the wishList page
+    } catch (e){
+      next(e);
     }
   }
-)
+  )
+  app.post('/wishlist/add',
+  isLoggedIn,
+  async (req,res,next) => {
+    try{
+      const {isbnRes} = req.body; // get title and description from the body
+      const userId = res.locals.user._id; // get the user's id
+      const response = await axios.get("https://www.googleapis.com/books/v1/volumes?q="+isbnRes+"&maxResults=20&key="+API_KEY)
+      const title = response.data.items[0]['volumeInfo']['title']
+      const author =response.data.items[0]['volumeInfo']['authors']
+      const isbn = isbnRes
+      const image=response.data.items[0]['volumeInfo']['imageLinks']['thumbnail']
+      const book = WishList.findOne({ isbn: isbn})
+      console.log(book.data)
+      if(!book.data){
+        let data = {userId, title, author, image, isbn}
+        let items = new WishList(data) 
+        await items.save() 
+      }
+      res.redirect('/wishlist')  // go back to the todo page
+    } catch (e){
+      next(e);
+    }
+  }
+  )
+  app.get("/wishlist/delete/:itemId",
+    isLoggedIn,
+    async (req,res,next) => {
+      try{
+        const itemId=req.params.itemId; // get the id of the item to delete
+        await WishList.deleteOne({_id:itemId}) // remove that item from the database
+        res.redirect('/wishlist') // go back to the todo page
+      } catch (e){
+        next(e);
+      }
+    }
+  )
 // *********************************************************** //
 //  Starting up the server!
 // *********************************************************** //
@@ -189,6 +220,7 @@ app.set("port", port);
 
 // and now we startup the server listening on that port
 const http = require("http");
+const { resourceLimits } = require("worker_threads");
 const server = http.createServer(app);
 
 server.listen(port);
