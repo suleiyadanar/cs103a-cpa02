@@ -9,7 +9,7 @@ var wishlistSchema = Schema( {
   title: String,
   author: Mixed,
   image:String,
-  isbn:Number
+  isbn:Mixed
 } );
 
 module.exports = mongoose.model( 'WishList', wishlistSchema );
