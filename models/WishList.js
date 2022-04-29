@@ -7,7 +7,7 @@ const Mixed = Schema.Types.Mixed;
 var wishlistSchema = Schema( {
   userId: ObjectId,
   title: String,
-  author: String,
+  author: Array,
   image:String,
   isbn:Mixed
 } );
