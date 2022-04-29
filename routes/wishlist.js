@@ -53,11 +53,6 @@ router.get('/wishlist',
       const isbn = isbnRes
       const image=response.data.items[0]['volumeInfo']['imageLinks']['thumbnail']
       const book = WishList.findOne({ isbn: isbn})
-      console.log(userId)
-      console.log(title)
-   
-      console.log(isbn)
-      console.log(image)
   
       if(!book.data){
         let data = {userId, title, author, image, isbn}
