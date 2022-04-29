@@ -182,7 +182,8 @@ app.get('/wishlist',
       const userId = res.locals.user._id; // get the user's id
       const response = await axios.get("https://www.googleapis.com/books/v1/volumes?q="+isbnRes+"&maxResults=20&key="+API_KEY)
       const title = response.data.items[0]['volumeInfo']['title']
-      const author =response.data.items[0]['volumeInfo']['authors']
+      const author2 =response.data.items[0]['volumeInfo']['authors']
+      const author = author2.toString()
       const isbn = isbnRes
       const image=response.data.items[0]['volumeInfo']['imageLinks']['thumbnail']
       const book = WishList.findOne({ isbn: isbn})
