@@ -56,7 +56,7 @@ OR
 
 ## Access WishList
 - Click "WishList" tab in the navigation bar
-<img width="914" alt="Screenshot 2022-04-29 at 10 26 00 AM" src="https://user-images.githubusercontent.com/84138664/165964035-b6bb600e-e1c9-4ac7-9e8a-821957340871.png">
+<img width="600" alt="Screenshot 2022-04-29 at 10 26 00 AM" src="https://user-images.githubusercontent.com/84138664/165964035-b6bb600e-e1c9-4ac7-9e8a-821957340871.png">
 
 ## Delete book from WishList
 - Click the yellow "-" at the right bottom of button 
